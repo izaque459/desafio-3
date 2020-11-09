@@ -1,4 +1,4 @@
-FROM golang: 1.15
+FROM golang:1.15
 WORKDIR /go/src/servicoC
 COPY . . 
 RUN GOOS=linux go build
